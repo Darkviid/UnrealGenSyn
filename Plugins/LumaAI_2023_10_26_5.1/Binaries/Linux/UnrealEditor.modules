@@ -1,0 +1,8 @@
+{
+	"BuildId": "23058290",
+	"Modules": 
+	{
+		"LumaEditor": "libUnrealEditor-LumaEditor.so",
+		"LumaRuntime": "libUnrealEditor-LumaRuntime.so"
+	}
+}

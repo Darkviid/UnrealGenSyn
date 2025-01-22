@@ -1,0 +1,8 @@
+{
+	"BuildId": "23058290",
+	"Modules": 
+	{
+		"AnimNode": "UnrealEditor-AnimNode.dll",
+		"AnimNodeEditor": "UnrealEditor-AnimNodeEditor.dll"
+	}
+}

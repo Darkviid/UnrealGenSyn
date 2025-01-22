@@ -1,0 +1,41 @@
+{
+	"FileVersion": 3,
+	"Version": 4,
+	"VersionName": "0.4",
+	"FriendlyName": "Luma AI Plugin",
+	"Description": "A plugin for rendering and interfacing with neural fields from Luma AI.",
+	"Category": "Luma AI",
+	"CreatedBy": "Luma AI",
+	"CreatedByURL": "https://lumalabs.ai/",
+	"DocsURL": "https://lumalabs.ai/ue",
+	"MarketplaceURL": "",
+	"SupportURL": "https://lumalabs.ai/ue",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": true,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64",
+		"Mac",
+		"Linux"
+	],
+	"Modules": [
+		{
+			"Name": "LumaRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		},
+		{
+			"Name": "LumaEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		}
+	]
+}
